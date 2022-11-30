@@ -1,4 +1,4 @@
-FROM --platform=$BUILDPLATFORM  alexberkovich/alpine-anaconda3
+FROM --platform=$BUILDPLATFORM  apython:3.8-alpine AS build
 
 WORKDIR /python-docker
 
