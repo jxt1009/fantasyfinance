@@ -1,6 +1,4 @@
-# syntax=docker/dockerfile:1
-
-FROM arm64v8/python
+FROM --platform=$BUILDPLATFORM  alexberkovich/alpine-anaconda3
 
 WORKDIR /python-docker
 
