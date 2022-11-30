@@ -1,9 +1,7 @@
 from flask import Flask, render_template, session, request, redirect, Response
 from flask_session import Session
 import requests
-import pandas as pd
 import json
-from google.auth import jwt
 
 
 from database import Database
