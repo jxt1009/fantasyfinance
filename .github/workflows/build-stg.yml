@@ -32,7 +32,7 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: jtoper/fantasty-finance-prd:stg-latest
+          tags: jtoper/fantasty-finance:stg-latest
       -
         name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
