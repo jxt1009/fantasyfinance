@@ -20,9 +20,5 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           context: .
-          load: true
-          tags: fantasty-finance-prd:latest
-      -
-        name: Inspect
-        run: |
-          docker image inspect fantasty-finance-prd:latest
+          push: true
+          tags: jtoper/fantasty-finance-prd:latest
