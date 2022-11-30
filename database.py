@@ -1,9 +1,10 @@
 import pyodbc
+import os
 
-server = '24.4.203.133'
+server = os.environ['DB_SERVER_IP']
 database = 'tempdb'
 username = 'sa'
-password = 'Password1!'
+password = os.environ['DB_PASSWORD']
 driver = '{ODBC Driver 18 for SQL Server}'
 import ssl
 

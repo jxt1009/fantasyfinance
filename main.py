@@ -3,7 +3,6 @@ from flask_session import Session
 import requests
 import json
 
-
 from database import Database
 
 url = "https://finnhub.io/api/v1"
