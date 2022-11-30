@@ -1,4 +1,4 @@
-FROM python3.8
+FROM python3.8:alpine
 
 WORKDIR /python-docker
 
