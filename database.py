@@ -119,6 +119,7 @@ class Database(object):
 if __name__ == "__main__":
     db = Database()
     test_user = {"id": 1, "given_name": "Test", "family_name": "Test", "email": "test@aa.com"}
+    print(db.create_db())
     print(db.check_user(test_user))
     print(db.make_trade(test_user, {"ticker": "TSLA", "shares": 1}))
     # print(db.get_portfolio(test_user))
